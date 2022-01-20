@@ -58,10 +58,9 @@
         android:layout_height="wrap_content"
         android:fontFamily="cursive"
         android:hint="Please enter your name"
-        android:hintTextColor="#78909C"
         android:inputType="textPersonName"
-        android:textSize="36sp"
-        tools:ignore="TextContrastCheck" />
+        android:textColorHint="#4F94CD"
+        android:textSize="36sp" />
 
     <Switch
         android:id="@+id/switch01"
@@ -82,7 +81,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="Comfirm Button" />
+        android:text="Confirm Button" />
 
     <ToggleButton
         android:id="@+id/toggle_button"
